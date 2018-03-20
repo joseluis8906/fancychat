@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='fancychat',
-    version='1.0.0',
+    version='1.0.1',
     package_dir={'': 'venv/lib/python3.5/'},
     packages=[
         'distutils',
@@ -59,7 +59,7 @@ setup(
         'site-packages.pkg_resources._vendor',
         'site-packages.pkg_resources._vendor.packaging'],
     url='https://github.com/joseluis8906/fancychat',
-    license='BSD',
+    license='MIT',
     author='joseluis',
     author_email='joseluiscacere8906@gmail.com',
     description='fancy chat example',
