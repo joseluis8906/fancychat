@@ -1,13 +1,14 @@
+#!/bin/python
 import gi
 
 gi.require_version("Gtk", "3.0")
 import gi.repository.Gtk as Gtk
 import gi.repository.Gdk as Gdk
-from TitleBar import TitleBar
-from ScrollView import ScrollView
-from MsgArrive import MsgArrive
-from MsgSend import MsgSend
-from Editor import Editor
+from fancychat.src.TitleBar import TitleBar
+from fancychat.src.ScrollView import ScrollView
+from fancychat.src.MsgArrive import MsgArrive
+from fancychat.src.MsgSend import MsgSend
+from fancychat.src.Editor import Editor
 
 
 class Restaurantic(Gtk.Window):
