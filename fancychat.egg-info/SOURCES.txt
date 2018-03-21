@@ -12,6 +12,16 @@ fancychat.egg-info/SOURCES.txt
 fancychat.egg-info/dependency_links.txt
 fancychat.egg-info/requires.txt
 fancychat.egg-info/top_level.txt
+resourses/appbar.close.svg
+resourses/appbar.control.fastforward.variant.svg
+resourses/appbar.lines.horizontal.4.svg
+resourses/fbmessenger.svg
+resourses/kphotoalbum.svg
+resourses/msg-text-arrive.svg
+resourses/msg-text-send.svg
+resourses/preferences-desktop-emoticons.svg
+resourses/preferences-desktop-emoticons2.svg
+resourses/styles.css
 venv/lib/python3.5/collections/__init__.py
 venv/lib/python3.5/collections/__main__.py
 venv/lib/python3.5/collections/abc.py

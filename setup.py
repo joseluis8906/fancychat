@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='fancychat',
-    version='1.0.9',
+    version='1.1.3',
     package_dir={'env': 'venv/lib/python3.5/'},
     packages=[
         'fancychat',
@@ -58,7 +58,22 @@ setup(
         'env.site-packages.pkg_resources',
         'env.site-packages.pkg_resources.extern',
         'env.site-packages.pkg_resources._vendor',
-        'env.site-packages.pkg_resources._vendor.packaging'],
+        'env.site-packages.pkg_resources._vendor.packaging'
+    ],
+    data_files=[
+        ('resourses', [
+            'resourses/appbar.close.svg',
+            'resourses/appbar.control.fastforward.variant.svg',
+            'resourses/appbar.lines.horizontal.4.svg',
+            'resourses/fbmessenger.svg',
+            'resourses/kphotoalbum.svg',
+            'resourses/msg-text-arrive.svg',
+            'resourses/msg-text-send.svg',
+            'resourses/preferences-desktop-emoticons.svg',
+            'resourses/preferences-desktop-emoticons2.svg',
+            'resourses/styles.css'
+        ])
+    ],
     url='https://github.com/joseluis8906/fancychat',
     license='MIT',
     author='joseluis',
