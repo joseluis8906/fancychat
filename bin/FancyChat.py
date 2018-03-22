@@ -35,7 +35,7 @@ class Restaurantic(Gtk.Window):
 
 if __name__ == '__main__':
     style_provider = Gtk.CssProvider()
-    style_provider.load_from_path("resourses/styles.css")
+    style_provider.load_from_path("share/fancychat/styles.css")
 
     Gtk.StyleContext.add_provider_for_screen(
         Gdk.Screen.get_default(),

@@ -10,7 +10,7 @@ class Editor(Gtk.Box):
 
         self.cam_image = Gtk.Image()
         self.cam_image.set_from_pixbuf(GdkPixbuf.Pixbuf.new_from_file_at_scale(
-            filename="resourses/kphotoalbum.svg",
+            filename="share/fancychat/kphotoalbum.svg",
             width=32,
             height=32,
             preserve_aspect_ratio=True
@@ -23,7 +23,7 @@ class Editor(Gtk.Box):
 
         self.send_image = Gtk.Image()
         self.send_image.set_from_pixbuf(GdkPixbuf.Pixbuf.new_from_file_at_scale(
-            filename="resourses/appbar.control.fastforward.variant.svg",
+            filename="share/fancychat/appbar.control.fastforward.variant.svg",
             width=32,
             height=32,
             preserve_aspect_ratio=True

@@ -9,7 +9,7 @@ class MsgSend(Gtk.Box):
 
         self.avatar = Gtk.Image()
         self.avatar.set_from_pixbuf(GdkPixbuf.Pixbuf.new_from_file_at_scale(
-            filename="resourses/preferences-desktop-emoticons2.svg",
+            filename="share/fancychat/preferences-desktop-emoticons2.svg",
             width=48,
             height=48,
             preserve_aspect_ratio=True

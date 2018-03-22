@@ -12,7 +12,7 @@ class TitleBar(Gtk.Box):
 
         self.logo = Gtk.Image()
         self.logo.set_from_pixbuf(GdkPixbuf.Pixbuf.new_from_file_at_scale(
-            filename="resourses/fbmessenger.svg",
+            filename="share/fancychat/fbmessenger.svg",
             width=32,
             height=32,
             preserve_aspect_ratio=True
@@ -24,7 +24,7 @@ class TitleBar(Gtk.Box):
 
         self.menu = Gtk.Image()
         self.menu.set_from_pixbuf(GdkPixbuf.Pixbuf.new_from_file_at_scale(
-            filename="resourses/appbar.lines.horizontal.4.svg",
+            filename="share/fancychat/appbar.lines.horizontal.4.svg",
             width=32,
             height=32,
             preserve_aspect_ratio=True
